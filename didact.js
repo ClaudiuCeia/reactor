@@ -302,7 +302,7 @@ function reconcileChildren(wipFiber, elements) {
 const Didact = {
   createElement,
   render,
-  useState,
+  useState, 
 }
 
 /** @jsx Didact.createElement */
@@ -314,6 +314,7 @@ function Counter() {
     </h1>
   )
 }
+
 const element = <Counter />
 const container = document.getElementById("root")
 Didact.render(element, container)

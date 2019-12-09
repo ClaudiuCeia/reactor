@@ -6,7 +6,16 @@
   "repository": "pomber/didact",
   "author": "pomber",
   "main": "didact.js",
+  "scripts": {
+    "build": "babel didact.js --out-file build/didact.js"
+  },
   "keywords": [
     "react"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-syntax-jsx": "^7.7.4",
+    "@babel/plugin-transform-react-jsx": "^7.7.4"
+  }
 }
